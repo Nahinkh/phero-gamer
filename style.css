@@ -1,0 +1,620 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+
+
+/*<=============================Sheared CSS=======================================>*/
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+*.para-Container {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    /* 150% */
+}
+
+body {
+    display: contents;
+}
+
+/*===========================================NAVBAR CSS==========================*/
+header {
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 100px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px 30px 100px;
+
+
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.logo-container h1 {
+    font-family: Work Sans;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+
+.logo-container h1>span {
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.logo-container img {
+    width: 76px;
+    height: 32px;
+}
+
+
+.li-contant {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.you-tik {
+    display: flex;
+    list-style: none;
+    margin-right: 10px;
+    gap: 10px;
+    padding-left: 0%;
+}
+
+
+/*===================================================Banner Container==================================*/
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('./images/Group 14.png');
+    background-repeat: no-repeat;
+    margin-top: -100px;
+    width: 100%;
+    height: 450px;
+    fill: linear-gradient(235deg, rgba(140, 87, 238, 0.03) 3.9%, rgba(241, 68, 174, 0.03) 100.56%);
+}
+
+.banner-content {
+    margin-left: 100px;
+
+}
+
+.banner-content h4 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.banner-content h1 {
+    text-align: center;
+    margin-top: -80px;
+    font-family: Work Sans;
+    font-size: 95px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-img {
+    height: 450px;
+    width: 100%;
+}
+
+.img {
+    margin-right: 100px;
+}
+
+.banner-para {
+    margin-top: -80px;
+    margin-left: 120px;
+}
+
+.banner-para button {
+    width: 160px;
+    height: 60px;
+    border-radius: 48px;
+    border: #FFF;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.btn-2 {
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+.btn-1 {
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+}
+
+
+/*=================================================GAMER SECTION============================*/
+.gamer-container {
+    display: flex;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13.13%, rgba(255, 66, 165, 0.03) 87.94%);
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.game-img {
+    margin-left: 70px;
+}
+
+.gamer-container img {
+    height: 450px;
+    width: 100%;
+}
+
+.game-content {
+    margin-right: 80px;
+}
+
+.game-content h2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.game-content p {
+
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 0;
+    line-height: 30px;
+
+}
+
+.game-content button {
+    border-radius: 48px;
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 160px;
+    height: 60px;
+    border: #FFF;
+    margin-left: 73%;
+    cursor: pointer;
+}
+
+.game-content h5 {
+    color: #534C64;
+    text-align: right;
+    margin-top: -29px;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 187.5% */
+
+}
+
+
+/* GAME */
+
+
+.online-content h2 {
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.online-content p {
+    text-align: center;
+    margin-top: -30px;
+}
+
+.online-content span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.online-container {
+    margin-left: 80px;
+    margin-right: 60px;
+
+}
+
+.img-card img {
+    width: 280px;
+    height: 320px;
+    border-radius: 16px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.card {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+/* =======================================Play Instantly===================== */
+
+.play-instantly {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+.paly-img {
+    margin-top: 100px;
+    background-image: url('./images/Rectangle 55.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 5px;
+    background-size: 100% 100%;
+    min-width: 400px;
+    max-height: 500px;
+}
+
+.paly-img img {
+    width: 50%;
+    height: 250px;
+    margin-top: 300px;
+    margin-left: -100px;
+}
+
+.play-content {
+    margin-top: 10%;
+    margin-left: 100px;
+}
+
+.play-content h1 {
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.play-content span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-content p {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.careers {
+    margin-top: 100px;
+    background-color: #F948B2;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.careers-contant {
+    margin-left: 70px;
+}
+
+.careers-contant h3 {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.careers-contant p {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.careers-contant button {
+    border-radius: 48px;
+    background: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: #FFF;
+    width: 160px;
+    height: 60px;
+    color: #F948B2;
+    cursor: pointer;
+}
+
+.careers-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.content-car {
+    display: flex;
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 10px;
+    /* 200% */
+}
+
+
+
+.button-sec {
+    align-items: center;
+    background: none;
+    border: none;
+    width: 200px;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.but {
+    color: #0c3e53;
+}
+
+.but:hover {
+    color: #FF42A5;
+    transition: 0.4s;
+    border: 3px solid #FF42A5;
+    transition: 0.5s;
+}
+
+.button-sec img {
+    width: 40px;
+    height: 40px;
+}
+
+.button-1 {
+    display: grid;
+    grid-template-rows: 100px 100px;
+    grid-template-columns: 250px 250px 250px 250px 250px;
+}
+
+footer {
+    background-color: #0B0223;
+    height: 400px;
+
+}
+
+.logo-fot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.logo-fot h1 {
+    font-family: Work Sans;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    color: #FFF;
+}
+
+.logo-fot h1>span {
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.story-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.icon {
+    color: #FFF;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    justify-content: center;
+
+}
+
+.terms-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.p-fot {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
+@media screen and (max-width: 786px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .li-contant {
+        flex-direction: column;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+        margin-top: 400px;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .btn {
+        display: flex;
+    }
+
+    .img {
+        margin-right: 0;
+    }
+
+    .banner-content,
+    .banner-para {
+        margin-left: auto;
+    }
+
+    .gamer-container {
+        flex-direction: column;
+    }
+
+    .game-content {
+        text-align: center;
+    }
+
+    .game-img {
+        margin-left: 0px;
+    }
+
+    .gamer-container img {
+        width: 100%;
+        height: auto;
+    }
+
+    .game-content button {
+        margin-left: 60%;
+    }
+
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .play-instantly {
+        flex-direction: column;
+    }
+
+    .paly-img {
+        width: fit-content;
+        align-items: center;
+        margin-left: 10%;
+
+    }
+
+    .careers {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .button-1 {
+        grid-template-rows: 100px 100px;
+        grid-template-columns: 200px 200px;
+    }
+}
